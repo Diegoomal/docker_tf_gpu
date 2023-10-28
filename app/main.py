@@ -7,7 +7,7 @@ import tensorflow as tf
 
 if __name__ == "__main__":
 
-  print('1) Verify GPU access')
+  print('Verify GPU access')
   print(tf.config.list_physical_devices('GPU'))
 
   def test(proc_env):
